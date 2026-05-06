@@ -2,7 +2,7 @@
 
 A faithful recreation of the classic Space Invaders arcade game built with React, TypeScript, and Vite. Features authentic pixel art graphics, chiptune-inspired sound effects and music, and all the classic gameplay elements.
 
-![SpaceInvaders Screenshot](screenshot.png)
+(Known Issue: Player unable to shoot) 
 
 ## Features
 
