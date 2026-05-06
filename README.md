@@ -47,8 +47,8 @@ The music dynamically shifts to a more intense theme when fewer aliens remain on
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/space-invaders-game-development.git
-   cd space-invaders-game-development
+   git clone --depth 1 https://github.com/KennedyaKennedy/SpaceInvaders
+   cd SpaceInvaders
    ```
 
 2. Install dependencies:
