@@ -1113,14 +1113,15 @@ export default function App() {
 
       // Start game
       if (e.key === ' ' && !gameState.started) {
+        lastShotRef.current = 0;
         setGameState((prev) => ({ ...prev, started: true }));
         audioManager.startMusic('gameplay');
       }
 
       // Restart game
       if (e.key === ' ' && gameState.gameOver) {
-        setGameState(createInitialState());
-        setGameState((prev) => ({ ...prev, started: true }));
+        lastShotRef.current = 0;
+        setGameState({ ...createInitialState(), started: true });
         audioManager.startMusic('gameplay');
       }
 
